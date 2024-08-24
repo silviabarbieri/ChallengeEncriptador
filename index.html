@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15+Charted&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <img class="logo" src="img/logo alura.png" alt="logo alura">
+    </header>
+<main>
+      <section>
+    <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese su texto aqui" ></textarea>  
+ <div>
+    <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+
+</div>
+ <div class="botones">
+    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+</div> 
+    </section>
+      <section>
+    <textarea class="mensaje" id="mensaje"  cols="20" rows="10"></textarea>
+ <div>
+    <button class="copiar" id="copiarBtn">Copiar</button>
+</div>
+  </section>
+</main>
+<footer class="footer">Realizado por Silvia Barbieri 2024</footer>
+    <script src="acciones.js"></script>
+</body>
+</html>

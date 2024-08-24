@@ -1,0 +1,109 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height:25px;
+}
+.logo{
+    padding-top: 62,5%;
+    margin-left: 62,5%;
+    width: 5%;
+}
+main{
+    display: flex;
+    margin-bottom:30px ;
+    margin-left:50px ;
+    width: 50%;
+
+}
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+::placeholder{ color:#0A3871;}
+.text-area:focus{
+    outline: none;
+}
+.mensaje{
+    background: #f3f5fc;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius:24px;
+    color: #0A3871;
+    position: fixed;
+    width: 50%;
+    height: 944px;
+    top: 40px;
+    left: 510px;
+    gap: 0px;
+    border-radius: 32px 0px 0px 0px;
+    opacity: 0px;
+    padding-top: 80px;
+   
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 5px;
+    gap: 15px;
+}
+.encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #f3f5fc;
+    cursor: pointer;
+    height:50px;
+    width: 80%;
+}
+.desencriptar{
+    background-color: #f3f5fc;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height:50px;
+    width: 80%; 
+}
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height:50px;
+    width: 250px; 
+    margin-left: 108px;
+    margin-top: 420px;
+    position: absolute;
+
+}
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+.footer{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 20%;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: small;
+
+    }
+
+    @media (max-width: 1200px){
+        .main{
+            flex-direction: column;
+            }
+        #bntCopiar{
+            flex-direction: column;
+        }    
+    }
